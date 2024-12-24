@@ -9,7 +9,7 @@
 
 ### Super Simplr service to find your IP address & geo-location
 
-<img style="vertical-align: middle;" height="128" src="./readme-assets/what-is-my-ip-banner.png" >
+<img style="vertical-align: middle;" src="./readme-assets/what-is-my-ip-banner.png" >
 
 
 ## Visit <a href="https://what-is-my-ip.simplr.sh">what-is-my-ip.simplr.sh</a>
