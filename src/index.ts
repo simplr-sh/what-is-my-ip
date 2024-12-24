@@ -9,16 +9,9 @@ app.get('/', async (c) => {
   const ip = cfConnectingIP || xForwardedFor
   const splitIp = ip?.split('.')
 
-  const { city, regionName, country } = await fetch(
-    `http://ip-api.com/json/${ip}?fields=31`
-  ).then(
-    (res) =>
-      res.json() as Promise<{
-        country: string
-        regionName: string
-        city: string
-      }>
-  )
+  const city = c.req.raw.cf?.city
+  const regionName = c.req.raw.cf?.region
+  const country = c.req.raw.cf?.country
 
   return c.html(`<!DOCTYPE html>
 <html lang="en">
