@@ -4,12 +4,13 @@
       <a href="https://what-is-my-ip.simplr.sh">
         What is my IP?
       </a>
-    </span>
+    </h1>
+    <p align="center"><strong>Simple IP Address & Geolocation Service</strong></p>
 </div>
 
-### Super Simplr service to find your IP address & geo-location
-
-<img style="vertical-align: middle;" src="./readme-assets/what-is-my-ip-banner.png" >
+<div align="center">
+  <img style="vertical-align: middle;" src="./readme-assets/what-is-my-ip-banner.png">
+</div>
 
 
 ## Visit <a href="https://what-is-my-ip.simplr.sh">what-is-my-ip.simplr.sh</a>
@@ -20,9 +21,30 @@
 
 ```
 npm install
+
+# Start development server
 npm run dev
 ```
 
-```
+### Deployment
+```bash
+# Login to Cloudflare
+wrangler login
+
+# Deploy
 npm run deploy
 ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+- ⭐ Star the repository
+- 🐛 Report issues
+- 🤝 Submit pull requests
